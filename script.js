@@ -44,6 +44,10 @@ function playGame() {
 
     playRound (getHumanChoice(), getComputerChoice());
 
+    playRound (getHumanChoice(), getComputerChoice());
+
+    playRound (getHumanChoice(), getComputerChoice());
+
     console.log (`Final Score: You - ${humanScore}, PC - ${computerScore}`);
 
     if (humanScore>computerScore) {
